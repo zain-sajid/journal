@@ -1,9 +1,10 @@
 import './App.css';
+import RouteHandler from './routes/RouteHandler';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="">Hello</h1>
+      <RouteHandler />
     </div>
   );
 }
