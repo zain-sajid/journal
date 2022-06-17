@@ -29,7 +29,7 @@
     border: none;
     text-decoration: none;
     border-radius: 8px;
-    margin: 25px;
+    margin: 17.5px;
     justify-content: space-around;
     align-items: center;
     transition: 0.25s ease-in-out;
@@ -40,7 +40,7 @@
     height: 30px;
     width: 30px;
 }
-.auth-button-deso, .auth-button-auth0 > p {
+.auth-button-deso > p, .auth-button-auth0 > p {
     font-size: 24px;
     margin: 0;
 }
