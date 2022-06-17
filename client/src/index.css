@@ -7,3 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #d9f1eb;
 }
+
+.btn-primary {
+  background-color: #a86adb;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #caa3e9;
+  border: 0;
+}
+
+.btn-primary:focus {
+  background-color: #9f5bd6;
+  border: 0;
+}
