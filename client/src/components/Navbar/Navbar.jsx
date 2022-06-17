@@ -14,7 +14,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ size: "42px", className: "icon-logo" }}>
                 <ul className="navbar-list">
                     <li>
-                        <Link to='/'>
+                        <Link to='/home'>
                             <FaHome />
                         </Link>
                     </li>
