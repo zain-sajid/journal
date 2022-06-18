@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
 import { FaHome } from 'react-icons/fa';
 import { FiSettings } from 'react-icons/fi';
-import { AiFillMessage } from 'react-icons/ai';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 import { BiStats } from 'react-icons/bi';
 import { BiMessageSquareAdd } from 'react-icons/bi';
