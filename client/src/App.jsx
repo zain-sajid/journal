@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './components/Home.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Auth from './components/Auth/Auth.jsx';
+import Stats from './components/Stats/Stats.jsx';
 import Post from './components/Post.jsx';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route index path="/" element={<Auth />} />
         <Route path="/home" element={<Home />} />
         <Route path="/post" element={<Post />} />
+        <Route path="/stats" element={<Stats />} />
       </Routes>
       {(location.pathname !== '/') && <Navbar />}
     </div>
