@@ -1,0 +1,5 @@
+package-lock.json
+cockroach
+cockroach-v22.1.1.darwin-10.9-amd64
+node_modules
+.env

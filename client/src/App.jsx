@@ -7,7 +7,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
-  const { user } = useAuth0();
+  const { isAuthenticated } = useAuth0();
   return (
     <div>
       <Routes>
@@ -15,7 +15,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/post" element={<Post />} />
       </Routes>
-      {user !== undefined && <Navbar />}
+      {isAuthenticated && <Navbar />}
     </div>
   );
 };
