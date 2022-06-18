@@ -1,26 +1,26 @@
 .navbar-container {
-    position: fixed;
-    width: 90px;
-    top: calc(100vh/4);
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  width: 90px;
+  top: calc(75vh / 4);
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-list {
-    display: flex;
-    padding: 0px;
-    flex-direction: column;
-    list-style-type: none;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+  list-style-type: none;
 }
 
 .icon-logo {
-    margin: 20px 0px 20px 0px;
-    color: #ab7bd1;
-    transition: 0.25s ease-in-out;
+  margin: 20px 0px 20px 0px;
+  color: #ab7bd1;
+  transition: 0.25s ease-in-out;
 }
 
 .icon-logo:hover {
-    cursor: pointer;
-    color: #A7D2C8;
-    transform: scale(1.1);
+  cursor: pointer;
+  color: #a7d2c8;
+  transform: scale(1.1);
 }

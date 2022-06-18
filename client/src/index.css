@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #d9f1eb;
+  background-color: #cbf1e7;
 }
 
 .btn-primary {
@@ -20,5 +20,4 @@ body {
 
 .btn-primary:focus {
   background-color: #9f5bd6;
-  border: 0;
 }
