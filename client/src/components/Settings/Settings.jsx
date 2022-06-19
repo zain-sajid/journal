@@ -32,27 +32,38 @@ const Settings = () => {
             <table class="table w-75" style={{ backgroundColor: 'white' }}>
               <tbody>
                 <tr>
-                  <td className="h6">
-                    IoT Channel Name: {IoTChannel.name.toUpperCase()}
+                  <td className="h6 p-4">
+                    IoT Channel Name:{' '}
+                    <span className="fw-bold">
+                      {IoTChannel.name.toUpperCase()}
+                    </span>
                   </td>
                 </tr>
                 <tr>
-                  <td className="h6">IoT Channel ID: {IoTChannel.id}</td>
-                </tr>
-                <tr>
-                  <td className="h6">
-                    IoT Channel Ranking: {IoTChannel.ranking}
+                  <td className="h6 p-4">
+                    IoT Channel ID:{' '}
+                    <span className="fw-bold">{IoTChannel.id}</span>
                   </td>
                 </tr>
                 <tr>
-                  <td className="h6">
-                    IoT Channel API Key: {IoTChannel.api_keys[0].api_key}
+                  <td className="h6 p-4">
+                    IoT Channel Ranking:{' '}
+                    <span className="fw-bold">{IoTChannel.ranking}</span>
                   </td>
                 </tr>
                 <tr>
-                  <td className="h6">
+                  <td className="h6 p-4">
+                    IoT Channel API Key:{' '}
+                    <span className="fw-bold">
+                      {IoTChannel.api_keys[0].api_key}
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="h6 p-4">
                     For more information about our project{' '}
                     <a
+                      className="fw-bold"
                       style={{ textDecoration: 'none', color: '#AB7BD1' }}
                       href={IoTChannel.url}
                     >
