@@ -7,7 +7,22 @@ const Post = require('../models/post.model');
 router.get('/get-posts', async (req, res) => {
   // this (sync) ??? important for some reason
   try {
-    const posts = await Post.findAll();
+    const posts = await Post.findAll({
+      order: [['updatedAt', 'DESC']],
+    });
+    res.json({ body: posts });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+});
+
+// API for updating likes
+router.get('/like-post', async (req, res) => {
+  // this (sync) ??? important for some reason
+  try {
+    const posts = await Post.findAll({
+      order: [['updatedAt', 'DESC']],
+    });
     res.json({ body: posts });
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -20,7 +35,6 @@ router.post('/create-post', async (req, res) => {
     force: false,
   });
   const post = new Post({
-    id: req.body.id,
     user: req.body.user,
     description: req.body.description,
     likes: 0,
