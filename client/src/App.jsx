@@ -6,6 +6,7 @@ import Stats from './components/Stats/Stats.jsx';
 import Post from './components/Post.jsx';
 import Settings from './components/Settings/Settings.jsx';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import Info from './components/Info/Info.jsx';
 
 // const login   = window.open('https://identity.deso.org/log-in');
 // const signUp  = window.open('https://identity.deso.org/sign-up');
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/post" element={<Post />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="/info" element={<Info />} />
       </Routes>
       {(location.pathname !== '/') && <Navbar />}
     </div>

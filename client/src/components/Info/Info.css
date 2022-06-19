@@ -1,0 +1,20 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 80vw;
+}
+.info-animated-img-1 {
+    height: 155px;
+    width: 165px;
+    margin-bottom: 30px;
+    margin-left: -28px;
+}
+
+.info-animated-img-2 {
+    height: 155px;
+    width: 145px;
+    margin-bottom: 30px;
+}

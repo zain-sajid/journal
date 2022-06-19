@@ -24,13 +24,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/settings">
-              <FiSettings />
+            <Link to="/stats">
+              <BiStats />
             </Link>
           </li>
           <li>
-            <Link to="/stats">
-              <BiStats />
+            <Link to="/settings">
+              <FiSettings />
             </Link>
           </li>
           <li>
