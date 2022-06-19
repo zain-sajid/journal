@@ -42,7 +42,8 @@ To create an all-in-one mental health hack that can help people with letting out
 <img width="1138" alt="Screen Shot 2022-06-19 at 6 33 30 AM" src="https://user-images.githubusercontent.com/92009321/174476770-581b7dea-6399-4556-8517-f93966cb93e0.png">
 <img width="1133" alt="Screen Shot 2022-06-19 at 6 34 04 AM" src="https://user-images.githubusercontent.com/92009321/174476777-31d01eee-6d50-43e1-8e46-3b2dcbd01046.png">
 <img width="1136" alt="Screen Shot 2022-06-19 at 6 35 15 AM" src="https://user-images.githubusercontent.com/92009321/174476830-9227f582-bb75-47f6-aa6f-0e104e49d794.png">
-<img width="399" alt="Screen Shot 2022-06-19 at 6 36 35 AM" src="https://user-images.githubusercontent.com/92009321/174476855-00bf2cca-4de3-4eb5-9f0f-b9f3e50238f9.png"><img width="1440" alt="Screen Shot 2022-06-19 at 6 38 15 AM" src="https://user-images.githubusercontent.com/92009321/174477009-05eae661-b18f-42a7-b0f6-d4853e551a74.png">
+<img width="1139" alt="Screen Shot 2022-06-19 at 6 41 40 AM" src="https://user-images.githubusercontent.com/92009321/174477084-1c94f956-baef-428d-a34f-5b1e83c5bf65.png">
+<img width="1440" alt="Screen Shot 2022-06-19 at 6 38 15 AM" src="https://user-images.githubusercontent.com/92009321/174477009-05eae661-b18f-42a7-b0f6-d4853e551a74.png">
 <img width="1440" alt="Screen Shot 2022-06-19 at 6 37 46 AM" src="https://user-images.githubusercontent.com/92009321/174477010-cd794d0a-0b45-4f3c-ba0c-44d0bbcaafea.png">
 <img width="1440" alt="Screen Shot 2022-06-19 at 6 39 13 AM" src="https://user-images.githubusercontent.com/92009321/174477004-9fe76749-cfd8-4c07-80a3-ee79af2d81fe.png">
 
