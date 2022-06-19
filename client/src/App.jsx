@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import Auth from './components/Auth/Auth.jsx';
 import Stats from './components/Stats/Stats.jsx';
 import Post from './components/Post.jsx';
+import Settings from './components/Settings/Settings.jsx';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
 // const login   = window.open('https://identity.deso.org/log-in');
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/post" element={<Post />} />
         <Route path="/stats" element={<Stats />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
       {(location.pathname !== '/') && <Navbar />}
     </div>
