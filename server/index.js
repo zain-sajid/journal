@@ -15,6 +15,9 @@ app.use(express.json());
 const postRouter = require('./routes/post.routes');
 app.use(postRouter);
 
+const twilioRouter = require('./routes/twilio.routes');
+app.use(twilioRouter)
+
 // Check if port is listening
 app.listen(port, host, () => {
   console.log(`Server started at host ${host} and ${port}`);

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 150px;
     width: 80vw;
 }
@@ -17,4 +17,14 @@
     height: 155px;
     width: 145px;
     margin-bottom: 30px;
+}
+
+.info-text {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
