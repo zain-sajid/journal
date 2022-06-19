@@ -1,6 +1,7 @@
 // imports
 const express = require('express');
 require('dotenv').config();
+const cors = require('cors');
 
 // declaring
 const app = express();
@@ -8,6 +9,7 @@ const port = 5000;
 const host = '127.0.0.1';
 
 // middleware
+app.use(cors());
 app.use(express.json());
 
 const postRouter = require('./routes/post.routes');

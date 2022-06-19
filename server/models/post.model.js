@@ -20,4 +20,24 @@ const Post = sequelize.define('posts', {
   },
 });
 
-module.exports = Post;
+const Comment = sequelize.define('comments', {
+  id: {
+    type: Sequelize.UUID,
+    defaultValue: Sequelize.UUIDV4,
+    allowNull: false,
+    primaryKey: true,
+  },
+  user: {
+    type: Sequelize.STRING,
+  },
+  text: {
+    type: Sequelize.STRING,
+  },
+});
+
+Post.hasMany(Comment, {
+  foreignKey: 'postId',
+});
+Comment.belongsTo(Post);
+
+module.exports = { Post, Comment };
