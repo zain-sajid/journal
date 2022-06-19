@@ -16,5 +16,8 @@
     "nodemon": "^2.0.16",
     "sequelize": "^6.21.0",
     "sequelize-cockroachdb": "^6.0.5"
+  },
+  "devDependencies": {
+    "twilio": "^3.77.3"
   }
 }
