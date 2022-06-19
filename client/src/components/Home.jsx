@@ -10,7 +10,6 @@ const Home = () => {
       setPosts(response.data.body);
     });
   }, []);
-  console.log(posts);
 
   return (
     <div className="container">
