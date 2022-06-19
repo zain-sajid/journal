@@ -13,7 +13,7 @@ Confess everything securely
 
 To create an all-in-one mental health hack that can help people with letting out their bottled up feelings.
 
-## Technology Stack & System Architecture (CERN)
+## Technology Stack & System Architecture (CERN: CockroachDB Serverless, Express.js, React.js, Node.js)
 
 ### Front-end:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![Bootstrap](https://img.shields.io/static/v1?style=for-the-badge&message=Bootstrap&color=7952B3&logo=Bootstrap&logoColor=FFFFFF&label=)![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
@@ -23,7 +23,7 @@ To create an all-in-one mental health hack that can help people with letting out
 
 ### Development
 
-![GitHub](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=)![Postman](https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label=)![Nodemon](https://img.shields.io/static/v1?style=for-the-badge&message=Nodemon&color=222222&logo=Nodemon&logoColor=76D04B&label=)
+![GitHub](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=)![Postman](https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label=)![Nodemon](https://img.shields.io/static/v1?style=for-the-badge&message=Nodemon&color=222222&logo=Nodemon&logoColor=76D04B&label=)![Jest](https://img.shields.io/static/v1?style=for-the-badge&message=Jest&color=C21325&logo=Jest&logoColor=FFFFFF&label=)![WebRTC](https://img.shields.io/static/v1?style=for-the-badge&message=WebRTC&color=333333&logo=WebRTC&logoColor=FFFFFF&label=)![npm](https://img.shields.io/static/v1?style=for-the-badge&message=npm&color=CB3837&logo=npm&logoColor=FFFFFF&label=)
 
 ## User Guide
 
