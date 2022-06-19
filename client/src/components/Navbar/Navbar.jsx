@@ -19,7 +19,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/post">
+            <Link to="/create-post">
               <BiMessageSquareAdd />
             </Link>
           </li>

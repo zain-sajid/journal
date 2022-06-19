@@ -3,6 +3,7 @@ import Home from './components/Home.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Auth from './components/Auth/Auth.jsx';
 import Stats from './components/Stats/Stats.jsx';
+import CreatePost from './components/CreatePost.jsx';
 import Post from './components/Post.jsx';
 import Settings from './components/Settings/Settings.jsx';
 import { Routes, Route, useLocation } from 'react-router-dom';
@@ -20,16 +21,17 @@ import Info from './components/Info/Info.jsx';
 const App = () => {
   const location = useLocation();
   return (
-      <div>
+    <div>
       <Routes>
         <Route index path="/" element={<Auth />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/post" element={<Post />} />
+        <Route path="/create-post" element={<CreatePost />} />
+        <Route path="/post/:id" element={<Post />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/info" element={<Info />} />
       </Routes>
-      {(location.pathname !== '/') && <Navbar />}
+      {location.pathname !== '/' && <Navbar />}
     </div>
   );
 };
