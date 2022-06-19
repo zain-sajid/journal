@@ -13,13 +13,17 @@ Confess everything securely
 
 To create an all-in-one mental health hack that can help people with letting out their bottled up feelings.
 
-## Technology Stack & System Architecture (MVC & MERN)
+## Technology Stack & System Architecture (CERN)
 
-![image](https://user-images.githubusercontent.com/92009321/173211431-5841add3-1e86-49cb-a60d-795c7c6f0635.png)
+### Front-end:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)[Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)![Bootstrap](https://img.shields.io/static/v1?style=for-the-badge&message=Bootstrap&color=7952B3&logo=Bootstrap&logoColor=FFFFFF&label=)
 
-![image](https://user-images.githubusercontent.com/92009321/173214044-895ae384-526e-482c-9a07-a86230c63d2a.png)
+### Back-end:
+![PostgreSQL](https://img.shields.io/static/v1?style=for-the-badge&message=PostgreSQL&color=4169E1&logo=PostgreSQL&logoColor=FFFFFF&label=)![Cockroach Labs](https://img.shields.io/static/v1?style=for-the-badge&message=Cockroach+Labs&color=6933FF&logo=Cockroach+Labs&logoColor=FFFFFF&label=)![Auth0](https://img.shields.io/static/v1?style=for-the-badge&message=Auth0&color=EB5424&logo=Auth0&logoColor=FFFFFF&label=)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)![Sequelize](https://img.shields.io/static/v1?style=for-the-badge&message=Sequelize&color=222222&logo=Sequelize&logoColor=52B0E7&label=)![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)![Blockchain.com](https://img.shields.io/static/v1?style=for-the-badge&message=Blockchain.com&color=121D33&logo=Blockchain.com&logoColor=FFFFFF&label=)
 
-![0_GKIyAWHbKbANm7d9](https://user-images.githubusercontent.com/92009321/173217701-8a880c2b-511e-4aa3-88be-e80a0bb24cdb.jpg)
+### Development
+
+![GitHub](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=)![Postman](https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label=)![Nodemon](https://img.shields.io/static/v1?style=for-the-badge&message=Nodemon&color=222222&logo=Nodemon&logoColor=76D04B&label=)
 
 ## User Guide
 
@@ -35,13 +39,6 @@ To create an all-in-one mental health hack that can help people with letting out
 
 ## Some pictures of the app
 
-![image](https://user-images.githubusercontent.com/92009321/173211518-8b969665-7cc2-41df-849a-0daa28f68914.png)
-![image](https://user-images.githubusercontent.com/92009321/173211546-5a71f186-600d-4698-9e98-7a5dba939edd.png)
-![image](https://user-images.githubusercontent.com/92009321/173211566-f84a2127-e106-4ff2-ae40-ec35ce07b22d.png)
-![image](https://user-images.githubusercontent.com/92009321/173211571-b17e194c-36cc-45cc-828e-13d59763746e.png)
-![image](https://user-images.githubusercontent.com/92009321/173211576-56bcafba-4da7-4ba0-ac10-bc67a7253a8b.png)
-![image](https://user-images.githubusercontent.com/92009321/173211582-a07a0a20-f6f2-4dca-ac0c-cc1ff140957f.png)
-![image](https://user-images.githubusercontent.com/92009321/173211592-8ba186a9-b686-4093-a28d-380e194fbba1.png)
 
 ## Test Plan: 
 
