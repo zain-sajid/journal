@@ -1,0 +1,3 @@
+SELECT value FROM big_cities_health_data_inventory WHERE indicator_category = "Behavioral Health/Substance Abuse" AND race_ethnicity="Black"
+SELECT value FROM big_cities_health_data_inventory WHERE indicator_category = "Behavioral Health/Substance Abuse" AND race_ethnicity="Hispanic"
+SELECT value FROM big_cities_health_data_inventory WHERE indicator_category = "Behavioral Health/Substance Abuse" AND race_ethnicity="White"

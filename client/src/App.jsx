@@ -2,20 +2,32 @@ import React from 'react';
 import Home from './components/Home.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Auth from './components/Auth/Auth.jsx';
+import Stats from './components/Stats/Stats.jsx';
 import Post from './components/Post.jsx';
-import { useAuth0 } from '@auth0/auth0-react';
-import { Routes, Route } from 'react-router-dom';
+import Settings from './components/Settings/Settings.jsx';
+import { Routes, Route, useLocation } from 'react-router-dom';
+
+// const login   = window.open('https://identity.deso.org/log-in');
+// const signUp  = window.open('https://identity.deso.org/sign-up');
+// const logout  = window.open('https://identity.deso.org/logout?publicKey=BC123...');
+// const approve = window.open('https://identity.deso.org/approve?tx=0abf35a...');
+// window.addEventListener("message", (event) => this.handleMessage(event));
+
+// // Can be added to any path for testnet deso and bitcoin addresses
+// const testnet = window.open('https://identity.deso.org/log-in?testnet=true');
 
 const App = () => {
-  const { isAuthenticated } = useAuth0();
+  const location = useLocation();
   return (
-    <div>
+      <div>
       <Routes>
         <Route index path="/" element={<Auth />} />
         <Route path="/home" element={<Home />} />
         <Route path="/post" element={<Post />} />
+        <Route path="/stats" element={<Stats />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
-      {isAuthenticated && <Navbar />}
+      {(location.pathname !== '/') && <Navbar />}
     </div>
   );
 };
