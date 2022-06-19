@@ -39,6 +39,13 @@ To create an all-in-one mental health hack that can help people with letting out
 
 ## Some pictures of the app
 
+<img width="1138" alt="Screen Shot 2022-06-19 at 6 33 30 AM" src="https://user-images.githubusercontent.com/92009321/174476770-581b7dea-6399-4556-8517-f93966cb93e0.png">
+<img width="1133" alt="Screen Shot 2022-06-19 at 6 34 04 AM" src="https://user-images.githubusercontent.com/92009321/174476777-31d01eee-6d50-43e1-8e46-3b2dcbd01046.png">
+<img width="1136" alt="Screen Shot 2022-06-19 at 6 35 15 AM" src="https://user-images.githubusercontent.com/92009321/174476830-9227f582-bb75-47f6-aa6f-0e104e49d794.png">
+<img width="399" alt="Screen Shot 2022-06-19 at 6 36 35 AM" src="https://user-images.githubusercontent.com/92009321/174476855-00bf2cca-4de3-4eb5-9f0f-b9f3e50238f9.png">
+
+
+
 
 ## Test Plan: 
 
