@@ -10,8 +10,8 @@ const host = '127.0.0.1';
 // middleware
 app.use(express.json());
 
-const userRouter = require('./routes/user.routes');
-app.use(userRouter);
+const postRouter = require('./routes/post.routes');
+app.use(postRouter);
 
 // Check if port is listening
 app.listen(port, host, () => {
