@@ -1,4 +1,4 @@
-### Hackathon update: Best use of CockroachDB and Best use of DeSo
+### Hackathon update: Best use of CockroachDB and Best use of DeSo (Mental Health Hacks II)
 
 # With U
 
